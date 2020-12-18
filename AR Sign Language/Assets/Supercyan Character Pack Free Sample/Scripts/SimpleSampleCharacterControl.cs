@@ -218,4 +218,14 @@ public class SimpleSampleCharacterControl : MonoBehaviour
             m_animator.SetTrigger("Jump");
         }
     }
+
+    public void MoveEvent1()
+    {
+        m_animator.SetTrigger("Pickup");
+    }
+
+    public void MoveEvent2()
+    {
+        m_animator.SetTrigger("Wave");
+    }
 }
